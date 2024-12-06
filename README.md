@@ -3,9 +3,9 @@
 This is a Streamlit web application that recommends similar movies based on user interests. The model uses **Cosine Similarity** to find and recommend movies based on the content of the movies in the dataset.
 
 ## Demo
-
-
-
+![Screenshot 2024-12-06 204052](https://github.com/user-attachments/assets/e1bb3375-c791-4f0b-97de-39e3d1c04375)
+![Screenshot 2024-12-06 204041](https://github.com/user-attachments/assets/40878e88-cd40-4b11-ae19-2e9277e35fa7)
+![Screenshot 2024-12-06 204024](https://github.com/user-attachments/assets/56e1305b-2c98-4144-b3a1-ade8d67684cd)
 
 ## Workflow
 
@@ -18,9 +18,8 @@ This is a Streamlit web application that recommends similar movies based on user
 
 ## Dataset
 
-The dataset used for this project can be found at:
-https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
-
+The dataset used for this project can be found at: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+The similarity.pkl and movie_list.pkl files are compressed in the artifacts folder due to upload constraints on GitHub. These files contain the precomputed cosine similarity matrix and the list of movies genrated using the ipynb file.
 
 ## How to Run the Project
 
@@ -29,7 +28,7 @@ https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 Clone the repository using the following command:
 
 ```bash
-git clone https://github.com/entbappy/Movie-Recommender-System-Using-Machine-Learning.git
+git clone https://github.com/Dheeraj44444/Movie-Recommender-System
 ```
 
 ### 2. Create a Conda Environment
@@ -54,7 +53,7 @@ pip install -r requirements.txt
 Run the following Jupyter Notebook to generate the models:
 
 ```bash
-Movie Recommender System Data Analysis.ipynb
+Recommender system.ipynb
 ```
 
 ### 5. Run the Application
