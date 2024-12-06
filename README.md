@@ -19,6 +19,7 @@ This is a Streamlit web application that recommends similar movies based on user
 ## Dataset
 
 The dataset used for this project can be found at: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
 The similarity.pkl and movie_list.pkl files are compressed in the artifacts folder due to upload constraints on GitHub. These files contain the precomputed cosine similarity matrix and the list of movies genrated using the ipynb file.
 
 ## How to Run the Project
